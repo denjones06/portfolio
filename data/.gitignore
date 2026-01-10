@@ -1,9 +1,0 @@
-# Datos sensibles
-data/train.csv
-data/test.csv
-
-# Outputs generados
-outputs/
-
-# Archivos del sistema
-.DS_Store

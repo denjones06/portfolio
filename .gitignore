@@ -1,0 +1,17 @@
+# Mac
+.DS_Store
+
+# Entorno virtual
+.venv/
+
+# Datos sensibles
+data/
+informe/*.pdf
+
+# Datasets
+*.csv
+*.zip
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
