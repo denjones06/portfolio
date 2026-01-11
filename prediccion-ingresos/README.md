@@ -1,36 +1,36 @@
-# Predicción de Ingresos
+## **Income Prediction**
 
-## Objetivo
-Desarrollar un modelo predictivo que estime el ingreso mensual de un cliente (en UYU) a partir de variables financieras y de comportamiento, minimizando el error relativo medio (MAPE).
+### **Objective**
+Develop a predictive model to estimate a client’s monthly income (in UYU) based on financial and behavioral variables, minimizing the mean absolute percentage error (MAPE).
 
-## Descripción del problema
-El conjunto de datos incluye información sobre saldos vigentes y vencidos, contingencias, calificaciones crediticias, número de instituciones financieras reportantes y variables demográficas.  
-El objetivo es capturar relaciones complejas entre estas variables para predecir el ingreso mensual de forma precisa.
+### **Problem Description**
+The dataset includes information on current and past-due balances, contingencies, credit ratings, number of reporting financial institutions, and demographic variables.  
+The objective is to capture complex relationships among these variables to accurately predict monthly income.
 
-## Metodología
-Se evaluaron múltiples enfoques de modelado, comenzando por modelos base y avanzando hacia técnicas más complejas.  
-El proceso incluyó:
+### **Methodology**
+Multiple modeling approaches were evaluated, starting with baseline models and progressing toward more advanced techniques.  
+The process included:
 
-- Análisis exploratorio de datos.
-- Imputación de valores faltantes (KNN Imputer e Iterative Imputer).
-- Manejo de outliers mediante Z-score.
-- Transformaciones y preparación de variables.
-- Optimización de hiperparámetros mediante validación cruzada.
-- Comparación de desempeño entre distintos modelos.
+- Exploratory data analysis (EDA)
+- Missing value imputation (KNN Imputer and Iterative Imputer)
+- Outlier handling using Z-score
+- Feature transformation and preparation
+- Hyperparameter optimization through cross-validation
+- Performance comparison across different models
 
-El modelo final seleccionado fue **XGBoost**, debido a su mejor desempeño en términos de MAPE y su capacidad para capturar relaciones no lineales.
+The final model selected was **XGBoost**, due to its superior performance in terms of MAPE and its ability to capture non-linear relationships.
 
-## Evaluación
-La métrica utilizada fue el **error relativo medio (MAPE)**.  
-El modelo basado en XGBoost mostró un desempeño sólido en el conjunto de validación, con un MAPE cercano al **12%**, superando los benchmarks definidos.
+### **Evaluation**
+The evaluation metric used was **mean absolute percentage error (MAPE)**.  
+The XGBoost-based model showed solid performance on the validation set, achieving a MAPE close to **12%**, outperforming the defined benchmarks.
 
-## Resultados
-El modelo entrenado se utilizó para generar predicciones sobre el conjunto de prueba.  
-Los resultados finales fueron exportados a un archivo **CSV** con las predicciones de ingreso mensual.
+### **Results**
+The trained model was used to generate predictions on the test set.  
+Final results were exported to a CSV file containing the predicted monthly income values.
 
-## Conclusión
-La combinación de un preprocesamiento robusto, imputación iterativa, manejo de outliers y optimización de hiperparámetros permitió construir un modelo preciso y estable para la predicción de ingresos.
+### **Conclusion**
+The combination of robust preprocessing, iterative imputation, outlier handling, and hyperparameter optimization enabled the development of an accurate and stable income prediction model.
 
-### Nota
-Por motivos de confidencialidad, los datasets utilizados para el entrenamiento y la evaluación no se incluyen en este repositorio.  
-El código permite reproducir el pipeline completo utilizando datos locales.
+### **Note**
+Due to confidentiality reasons, the datasets used for training and evaluation are not included in this repository.  
+The code allows full reproduction of the modeling pipeline using local data.
