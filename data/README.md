@@ -1,14 +1,11 @@
-## Datos
+## **Data**
 
-Este proyecto utiliza datos financieros y de comportamiento para entrenar un modelo
-predictivo de ingresos mensuales.
+This project uses financial and behavioral data to train a monthly income prediction model.
 
-Por motivos de confidencialidad, los datasets completos no se incluyen en el repositorio.
-Los archivos `train.csv` y `test.csv` utilizados para el entrenamiento y la evaluación
-se mantienen de forma local.
+Due to confidentiality reasons, the full datasets are not included in this repository. The `train.csv` and `test.csv` files used for training and evaluation are kept locally.
 
-Sin embargo, el repositorio incluye:
-- El notebook completo con todo el proceso de modelado
-- La metodología aplicada
-- La lógica de preprocesamiento y evaluación del modelo
+However, the repository includes:
 
+- The complete notebook with the full modeling process  
+- The applied methodology  
+- The preprocessing and model evaluation logic  
