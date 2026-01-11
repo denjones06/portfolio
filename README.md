@@ -1,7 +1,7 @@
-# Portfolio
+## **Portfolio**
 
-Hola, soy Denise.
+Hi, I’m Denise.
 
-Este repositorio reúne proyectos y ejercicios relacionados con análisis de datos, finanzas y riesgo.
+This repository brings together projects and exercises related to data analysis, finance, and risk.
 
-Trabajo con herramientas como Power BI, Python, SQL y R.
+I work with tools such as **Power BI**, **Python**, **SQL**, and **R**.
